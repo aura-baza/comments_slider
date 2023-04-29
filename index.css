@@ -143,6 +143,9 @@
     }
 }
 @media (max-width: 662px){
+    .container__card__slider{
+        width: 80%;
+    }
     .container__description{
         font-size: 18px;
     }
@@ -150,8 +153,8 @@
         font-size:15px;
     }
 }
-@media (max-width: 500px){
-  .description{
-    font-size: 15px;
-  }
+@media (max-width:420px){
+    .container__card__slider{
+        width:90%;
+    }
 }
